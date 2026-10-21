@@ -1,0 +1,46 @@
+/* 净屿家政 · 主题（湖水青 + 阳光黄，清爽上门服务） */
+:root{--brand:#0AA5B8;--brand-d:#07899A;--brand-l:#E2F6F8;--brand-ll:#F2FBFC;--brand-m:#3CC4D3;--sun:#FFD54A;--sun-l:#FFF6D6;--bg:#F3F7F8}
+.price{color:#E0661F}
+.hero{background:linear-gradient(140deg,#3CC4D3 0%,#0AA5B8 55%,#078A9B 100%)}
+.hero .house{position:absolute;right:14px;bottom:34px;width:132px;height:110px}
+.hero .tagrow span{background:rgba(255,255,255,.18)}
+.svgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:6px}
+.svc2{background:#fff;border:0;border-radius:14px;padding:14px 12px;text-align:left;box-shadow:0 1px 3px rgba(16,40,48,.06);display:flex;flex-direction:column;gap:4px;font:inherit;color:inherit;cursor:pointer}
+.svc2 b{font-size:15px;margin-top:4px}.svc2 small{font-size:11px;color:var(--ink3);line-height:1.4;min-height:30px}
+.svc2 .pr{font-size:13px;color:#E0661F;font-weight:700;margin-top:2px}
+.hic{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center}.hic svg{width:22px;height:22px}
+.hflow{display:flex;justify-content:space-between;position:relative;padding:4px 2px}
+.hflow:before{content:'';position:absolute;left:18px;right:18px;top:11px;height:2px;background:var(--brand-l)}
+.hflow .d{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:12px;color:var(--ink2)}
+.hflow .d i{width:12px;height:12px;border-radius:50%;background:var(--brand);border:3px solid var(--brand-l);margin-top:2px}
+.clr{display:flex;align-items:center;gap:12px;width:100%;background:#fff;border:1.5px solid transparent;border-radius:14px;padding:12px;margin-bottom:10px;text-align:left;font:inherit;color:inherit;cursor:pointer;box-shadow:0 1px 3px rgba(16,40,48,.05)}
+.clr .g{flex:1;min-width:0}.clr>svg{width:16px;height:16px;color:var(--ink3)}
+.clr.on{border-color:var(--brand);background:var(--brand-ll)}
+.clr.off{opacity:.45;cursor:not-allowed;background:#F4F6F7}
+.clr .pick{color:var(--brand)}
+.cav{width:48px;height:48px;border-radius:50%;overflow:hidden;flex:none}.cav svg{width:100%;height:100%;display:block}
+.cav.lg{width:64px;height:64px}
+.rate{color:#F2A900;font-weight:700;font-size:13px}
+.mini{font-size:12px;color:var(--ink3)}
+.tagsx{display:flex;flex-wrap:wrap;gap:6px;margin-top:5px}.tagsx span{font-size:11px;padding:2px 8px;border-radius:999px;background:var(--brand-l);color:var(--brand-d)}
+.row2{display:flex;align-items:center;gap:12px}
+.irow{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px solid var(--line)}.irow:last-child{border-bottom:0}
+.stp{display:flex;align-items:center;gap:10px}.stp span{min-width:22px;text-align:center;font-weight:700;font-size:16px}
+.stp button{width:32px;height:32px;border-radius:50%;border:1.5px solid var(--brand);background:#fff;color:var(--brand);font-size:18px;line-height:1;cursor:pointer}
+.stp button:disabled{border-color:#D5DADF;color:#C4C9CF;cursor:not-allowed}
+.calc{background:#fff;border-radius:14px;padding:12px 14px;margin:12px 0 8px;border:1px dashed #9FDDE5}
+.calc .ln{display:flex;justify-content:space-between;gap:10px;font-size:13px;color:var(--ink2);padding:3px 0}
+.calc .tot{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);margin-top:6px;padding-top:8px;font-size:12px;color:var(--ink3)}
+.calc .tot b{font-size:22px;color:#E0661F}
+.field .unit{color:var(--ink3);font-size:13px;margin-left:6px}
+.segs{display:flex;gap:8px;padding:8px 0}.segs button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 14px;font:inherit;font-size:13px;cursor:pointer;color:var(--ink2)}
+.segs button.on{border-color:var(--brand);color:var(--brand-d);background:var(--brand-l);font-weight:600}
+.bigstar{display:flex;justify-content:center;gap:8px;margin:12px 0}.bigstar button{border:0;background:none;font-size:34px;color:#DDE1E5;cursor:pointer;padding:0}.bigstar button.on{color:#F2A900}
+.tgs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}.tgs button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+.tgs button.on{border-color:var(--brand);color:var(--brand-d);background:var(--brand-l)}
+.hboard{width:100%;font-size:12px;border-collapse:collapse}.hboard th{font-weight:600;padding:6px 0;color:var(--ink2)}.hboard th:first-child{text-align:left}
+.hboard td{text-align:center;padding:5px 0}.hboard td.nm{text-align:left}.hboard td.wl{color:var(--ink3)}.hboard tr+tr+tr td{border-top:1px solid var(--line)}
+.slotb{display:inline-block;min-width:34px;padding:2px 4px;border-radius:6px;background:#F2F7F8;color:#B6BCC4}.slotb.on{background:var(--brand);color:#fff}
+.pr-in{width:96px;text-align:right;border:1px solid var(--line);border-radius:8px;padding:6px 8px;font:inherit;font-size:14px}
+.pr-in:disabled{background:#F4F6F7;color:var(--ink3)}
+.wins .win.on{border-color:var(--brand);background:var(--brand-l)}
